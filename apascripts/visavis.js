@@ -65,10 +65,8 @@ var changePage = function(newPage) {
 
 var hideArrows = function(page) {
 	
-/*
 	window.setTimeout( function() {
 		
 		japa('#' + page + ' div.help').fadeOut(600);
 	}, 3000);
-*/
 };
