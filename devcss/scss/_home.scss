@@ -1,0 +1,88 @@
+.apaHome {
+	
+	h1 {
+		
+		color: 			#e30513;
+		border-top:		4px solid #e30513;
+		font-size:		40px;
+		font-weight: 	900;
+		margin:			0;
+		padding:		0;
+		padding-top:	100px;
+		padding-left:	50px;
+		text-transform:	uppercase;
+		width:			100%;
+	}
+	
+	h2 {
+		
+		font-weight:	normal;
+		font-size:		28px;
+		line-height: 	55px;
+		margin-top:		130px;
+		padding-left:	50px;
+		text-transform:	uppercase;
+		width:			40%;
+		
+		&:after {
+			
+			content:	'…';
+		}
+	}
+	
+	.apaElement {
+		
+		fill:	red;
+	}
+	
+	nav {
+		
+		border-bottom:	50px solid $highColor;
+		bottom:			0px;
+		display:		block;
+		overflow:		auto;
+		position:		absolute;
+		width:			100%;
+		
+		ul {
+			
+			margin:		5%;
+			text-align:	center;
+			width: 		90%;
+			
+			li {
+				
+				display:		inline-block;
+				font-size:		28px;
+				font-weight: 	bold;
+				padding-bottom:	10px;
+				position:		relative;
+				text-transform:	uppercase;
+				margin-right:	10%;
+				
+				&:before {
+					
+					background-image:		url(../apaimages/arrow.svg);
+					background-position:	center top;
+					background-repeat:		no-repeat;
+					background-size:		15px 15px;
+					content:				'';
+					display:				block;
+					height:					20px;
+					overflow:				hidden;
+					padding-bottom: 		10px;
+					width:					100%;
+				}
+				
+				&:after {
+					
+					content:		'?';
+					font-weight:	bold;
+					left:			100%;
+					padding-left:	5px;
+					position:		absolute;
+				}			
+			}
+		}
+	}
+}

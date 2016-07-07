@@ -1,0 +1,31 @@
+body {
+	
+	color:			$defaultColor;
+	font-family:	$defaultFont;
+	height:			100%;
+	margin:			0;
+	overflow:		hidden;
+	padding:		0;
+	position:		relative;
+}
+
+section {
+	
+	position:		relative;
+	width:			100%;
+	overflow:		hidden;
+}
+	
+a, a:link,  a:visited,  a:focus,  a:hover,  a:active {
+	
+	color:				$defaultColor;
+	outline: 			0;
+	position:			relative;
+	text-decoration: 	none;
+	-moz-outline:		0;
+}
+
+.apaOuterFrame {
+	
+	@include transition(top 0.5s ease-in-out);
+}

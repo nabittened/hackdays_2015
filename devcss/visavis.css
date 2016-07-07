@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,300);
+@font-face {
+  font-family: 'visavis';
+  src: url("../apafonts/visavis.eot?pbrsam");
+  src: url("../apafonts/visavis.eot?pbrsam#iefix") format("embedded-opentype"), url("../apafonts/visavis.ttf?pbrsam") format("truetype"), url("../apafonts/visavis.woff?pbrsam") format("woff"), url("../apafonts/visavis.svg?pbrsam#visavis") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+	Mixins
+*/
+/* line 1, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_general.scss */
+body {
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative; }
+
+/* line 12, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_general.scss */
+section {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+/* line 19, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_general.scss */
+a, a:link, a:visited, a:focus, a:hover, a:active {
+  color: black;
+  outline: 0;
+  position: relative;
+  text-decoration: none;
+  -moz-outline: 0; }
+
+/* line 28, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_general.scss */
+.apaOuterFrame {
+  transition: top 0.5s ease-in-out;
+  -ms-transition: top 0.5s ease-in-out;
+  -moz-transition: top 0.5s ease-in-out;
+  -webkit-transition: top 0.5s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000; }
+
+/* line 3, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+.apaHome h1 {
+  color: #e30513;
+  border-top: 4px solid #e30513;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  width: 100%; }
+
+/* line 17, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+.apaHome h2 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 55px;
+  margin-top: 130px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  width: 40%; }
+  /* line 27, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+  .apaHome h2:after {
+    content: '…'; }
+
+/* line 33, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+.apaHome .apaElement {
+  fill: red; }
+
+/* line 38, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+.apaHome nav {
+  border-bottom: 50px solid #e30513;
+  bottom: 0px;
+  display: block;
+  overflow: auto;
+  position: absolute;
+  width: 100%; }
+  /* line 47, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+  .apaHome nav ul {
+    margin: 5%;
+    text-align: center;
+    width: 90%; }
+    /* line 53, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+    .apaHome nav ul li {
+      display: inline-block;
+      font-size: 28px;
+      font-weight: bold;
+      padding-bottom: 10px;
+      position: relative;
+      text-transform: uppercase;
+      margin-right: 10%; }
+      /* line 63, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+      .apaHome nav ul li:before {
+        background-image: url(../apaimages/arrow.svg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        content: '';
+        display: block;
+        height: 20px;
+        overflow: hidden;
+        padding-bottom: 10px;
+        width: 100%; }
+      /* line 77, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_home.scss */
+      .apaHome nav ul li:after {
+        content: '?';
+        font-weight: bold;
+        left: 100%;
+        padding-left: 5px;
+        position: absolute; }
+
+/* line 3, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+.apaContent h1 {
+  background-color: #e30513;
+  font-weight: 900;
+  margin: 0;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 0;
+  position: relative;
+  text-transform: uppercase;
+  width: 98%; }
+  /* line 15, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent h1 a {
+    color: white; }
+
+/* line 23, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+.apaContent header ul {
+  display: block;
+  margin: 0;
+  position: absolute;
+  right: 2%;
+  top: 1%; }
+  /* line 31, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent header ul li {
+    display: inline;
+    list-style-image: none; }
+    /* line 36, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+    .apaContent header ul li a {
+      margin-right: 20px;
+      font-size: 0px; }
+      /* line 41, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent header ul li a:before {
+        font-family: "visavis";
+        font-size: 30px; }
+      /* line 48, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent header ul li a.apaFacebook:before {
+        content: '\e903'; }
+      /* line 53, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent header ul li a.apaTwitter:before {
+        content: '\e905'; }
+      /* line 58, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent header ul li a.apaPinterest:before {
+        content: '\e904'; }
+
+/* line 67, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+.apaContent .apaContentMenu {
+  font-size: 22px;
+  margin-left: 2%;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2; }
+  /* line 75, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent .apaContentMenu p {
+    display: block;
+    padding-right: 10px;
+    margin-top: 3%; }
+  /* line 82, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent .apaContentMenu a#apaShownContent {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 3px; }
+    /* line 90, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+    .apaContent .apaContentMenu a#apaShownContent:after {
+      content: '\e900';
+      font-family: "visavis";
+      font-size: 20px;
+      margin-left: 20px; }
+  /* line 99, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent .apaContentMenu ul {
+    background-color: white;
+    border: 1px solid black;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; }
+    /* line 108, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+    .apaContent .apaContentMenu ul li {
+      display: block;
+      padding: 10px; }
+      /* line 113, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent .apaContentMenu ul li a:hover {
+        font-weight: bold !important; }
+
+/* line 121, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+.apaContent .apaSubContentMenu {
+  margin-left: 2%;
+  margin-top: 3%;
+  z-index: 1; }
+  /* line 127, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent .apaSubContentMenu h2 {
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    width: 96%; }
+  /* line 136, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent .apaSubContentMenu ul {
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    position: relative;
+    width: 96%; }
+    /* line 145, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+    .apaContent .apaSubContentMenu ul li {
+      font-size: 14px;
+      display: inline-block;
+      list-style-image: none;
+      text-align: center;
+      width: 25%; }
+      /* line 153, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent .apaSubContentMenu ul li:first-child {
+        text-align: left; }
+      /* line 158, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent .apaSubContentMenu ul li:last-child {
+        text-align: right; }
+      /* line 163, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+      .apaContent .apaSubContentMenu ul li a.apaSelected {
+        font-weight: bold; }
+
+/* line 171, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+.apaContent footer {
+  border-bottom: 8px solid #e30513;
+  bottom: 0px;
+  display: block;
+  position: absolute;
+  width: 100%; }
+  /* line 179, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+  .apaContent footer a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 3%;
+    padding-left: 6%;
+    position: relative; }
+    /* line 187, /Volumes/Macintosh HD/Sites/visavis/devcss/scss/_content.scss */
+    .apaContent footer a:before {
+      content: '\e906';
+      display: block;
+      font-family: "visavis";
+      margin-bottom: 5px;
+      text-align: center; }

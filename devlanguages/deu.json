@@ -1,0 +1,15 @@
+apaCallbackLang({
+	
+	title:			"vis à vis",
+	subtitle:		"Was bedeuten die Flüchtlinge für",
+	navUnion:		"Europa",
+	navAustria:		"Österreich",
+	navCommunity:	"Deine Gemeinde",
+	navMe:			"Dich",
+	goUp:			"nach oben",
+	concerning:		"bezogen auf",
+	population:		"Bevölkerung",
+	gender:			"Geschlecht",
+	religion:		"Religion",
+	age:			"Alter"
+});
